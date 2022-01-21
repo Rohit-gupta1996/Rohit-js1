@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>form</title>
+    <script>
+        function sample() {
+            var firstname = document.getElementById("fname").value;
+			var lastname = document.getElementById("lname").value;
+			var adrd = document.getElementById("add").value;
+            document.getElementById("a").innerHTML =  "first name is"  + firstname;
+			document.getElementById("b").innerHTML =  "last name is"  + lastname;
+			document.getElementById("c").innerHTML =  "address is"  + adrd;
+        }
+    </script>
+</head>
+<body>
+<form>
+    Fname: <input type=text id="fname"><br>
+	Lname: <input type=text id="lname"><br>
+    Address: <input type=text id="add"><br>
+    <input type="button" id="b1" value="submit" onclick="sample()">
+	<p id="a"></p>
+	<p id="b"></p>
+	<p id="c"></p>
+	</form>
+</body>
+</html>

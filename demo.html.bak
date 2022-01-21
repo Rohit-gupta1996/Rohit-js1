@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script>
+       function sample() {
+            var a = document.getElementById("Fname").value;
+            alert(a + "  welcome to this script");
+            document.getElementById("p1").innerHTML =  "welcome to this page "  + a;
+        }
+    </script>
+</head>
+<body>
+    Enter First name <input type=text id="Fname>
+    <br>
+    <p id=p1></p>
+    <input type="button" id=b1 value="submit" onclick="sample()">
+</body>
+</html>

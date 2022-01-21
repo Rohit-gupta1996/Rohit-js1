@@ -1,0 +1,24 @@
+<!DOCUMENT HTML>
+<html>
+<head>
+<title>Variable</title>
+<script>
+var a=20;
+var b=5;
+var add=a+b;
+var sub=a-b;
+var mul=a*b;
+var div=a/b;
+
+
+document.write("addition="+add);
+document.write(", substraction="+add);
+document.write(", multiplication="+add);
+document.write(", division="+add);
+
+</script>
+</head>
+<body>
+</body>
+</html> 
+
